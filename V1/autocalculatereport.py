@@ -10,6 +10,7 @@ courselist = pd.read_excel(file_path,sheet_name = "Sheet2",usecols="A:B")
 # 将课程和对应的学分转换位字典 方便快速查找
 cs1 = courselist.set_index(['课程'])['学分'].to_dict()
 
+
 ###### 读取成绩单
 schoolreport = pd.read_excel(file_path,sheet_name = "Sheet1") # 将Sheet1中的原始成绩读入
 # 新添加三列用来记录结果
