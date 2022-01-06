@@ -59,3 +59,4 @@ print('Successful Done!') # 操作成功提示
 # 课程学分列表缺项 警告
 # 大一体育成绩的处理
 
+# pyinstaller -F autocalculatereport.py
